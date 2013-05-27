@@ -1,0 +1,67 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 afdcee1bc95596497fad95c0965f9dfcb46f8155 Build.PL
+SHA1 4f35400eefda8f38088c3d845d056daae23d00bc Changes
+SHA1 e6cf7ddd92605758a20dd2485dfd832416ca88ad INSTALL
+SHA1 4d7a909a641aef78cab40eadb3e6a01244dfa538 LICENSE
+SHA1 ccd47f5fa8f61ab82ecc6e1d801b6265c931f03b MANIFEST
+SHA1 95d0cfc25b9ada32abbd5cdf1d36699f9639db08 MANIFEST.SKIP
+SHA1 266748411e7277c156cf4120198573c23d3543ba META.json
+SHA1 6f4e4a420d7c3639b53bc4da1ab122354dacff1c META.yml
+SHA1 c03c08fca58ad8e747eaf4639e7995ed46bb9f6c Makefile.PL
+SHA1 211d40c24b7bf458fcbd15957688a4f652cbfcbb README
+SHA1 fe95036bd4f336a18a74502e0183c557f85f21f9 dist.ini
+SHA1 148da6bb14a37db66a89d414d1dcc18d790f44fe lib/TBX/Checker.pm
+SHA1 ffc44b7b116b0bf622c1836efc22f2a65bd57f30 perl-module.sublime-project
+SHA1 e67def1f8242877e0d7a720c7595022a980760f1 perl-module.sublime-workspace
+SHA1 3cf8d3a7d7c4457c9a7ce2624a710a9f27f5a643 share/tbxcheck-1_2_9.jar
+SHA1 b454852fa32a496b4556043fd4df3f7570d68880 t/0-use.t
+SHA1 ed3125dfb7eb615316df2aabf17d3cfaa61ca8a4 t/00-compile.t
+SHA1 d68f515dab4020175f78a9ce253e87e8da2b2fe0 t/000-report-versions-tiny.t
+SHA1 a432c3538bf2b138974ab0ce460eb12e3d277465 t/01-Behavior.t
+SHA1 f8f6130f35670ac27a33986ab764857126feda4f t/corpus/TBXcoreStructV02.dtd
+SHA1 422ec4b79301f97e722b9cbbcf583d5947273bea t/corpus/bad.tbx
+SHA1 bb44a04c8cced1c5ced7548a1316f4a0dd61f92b t/corpus/good.tbx
+SHA1 acfd3acfdaf7818b2ead447a26b4367d3515b9a9 t/corpus/small.xcs
+SHA1 374f4f43967a81fb6ab49b433dae9336f676dced t/corpus/tbxxcsdtd.dtd
+SHA1 fd6f73b19c082d7405817f174c1961924788b1be t/perlcriticrc
+SHA1 b65c70a23b673683a3858527532b10237c6a23d3 xt/author/critic.t
+SHA1 8927f1cd54eaef1e88b484db170895ea468646e5 xt/release/cpan-changes.t
+SHA1 e7aba1991dcbcee279246120bee760c6e3c233cd xt/release/dist-manifest.t
+SHA1 d375219b5659ed60fe78dd4c0a01cb974bcc294a xt/release/distmeta.t
+SHA1 0b1b0b0b7086bbf8f0841ca3cb2d4409c83ad6dd xt/release/kwalitee.t
+SHA1 7241731c1064154e795e405d37ac02b14de350cc xt/release/meta-json.t
+SHA1 e4ed5fdecdd178f3c56ac1dc43ed51d0f9512720 xt/release/minimum-version.t
+SHA1 d163612b512f7542db75e904e627be7a779cc914 xt/release/mojibake.t
+SHA1 f6dc1127ef9268f65ee2db564347dcaf3cc254ca xt/release/pod-coverage.t
+SHA1 85b5410e96cff39f4999747de8a1bb6749e22a71 xt/release/pod-linkcheck.t
+SHA1 0b6dca5f0bf2d7504439167bd23c5997545d5482 xt/release/pod-syntax.t
+SHA1 0703bcaf8ceba5e47989a8ae033434e61d959ff0 xt/release/portability.t
+SHA1 9e97be18504716ebfe689a840075b9eaa28cbe6b xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+SHA1 38550acee2291d11bd8a4afa816942418f76794b xt/release/unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.17 (MingW32)
+
+iQEcBAEBAgAGBQJRo78HAAoJEF8b+BZrlpb0d20IAJz19MuBNKulR+91+Rh2KZXz
+nwYexWgNazmKhSgaRzoB6n4hgsZrW1yxgW0JKB6kj4Wam8mr4c4S/es7DZuFMobQ
+rSSACWWpqEmaF4B7VxhLp5IPuDiVo/rsfVZDKoUZap09jjq93eyF3VE7Owen5MOt
+Cx0WYDgYVZF566a7L1urdKx2S/uujQOn7Q9KeGjwlXCChp1dlC7QJpKxTuK4sK2i
+IvqTjOdGYM8c1yYBzkDPUOO8R06bwqRQ9eIqbmL9LUocnk1DtKEP5KWNvp73FHaL
+RDy0+dSo62JFuVYXJJ5IwbIYr1sMEaII8hVGNK56Y2RFnBOHak+UTH0OxRTFUyE=
+=yjNl
+-----END PGP SIGNATURE-----
