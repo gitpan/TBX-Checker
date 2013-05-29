@@ -2,7 +2,7 @@ NAME
     TBX::Checker - Check TBX validity using TBXChecker
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
             use TBX::Checker qw(check);
@@ -51,7 +51,7 @@ AUTHOR
     Nathan Glenn <garfieldnate@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Nathan Glenn.
+    This software is copyright (c) 2013 by Alan K. Melby.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

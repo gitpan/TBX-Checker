@@ -1,7 +1,7 @@
 #
 # This file is part of TBX-Checker
 #
-# This software is copyright (c) 2013 by Nathan Glenn.
+# This software is copyright (c) 2013 by Alan K. Melby.
 #
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
@@ -18,7 +18,7 @@ use Path::Tiny;
 use Carp;
 use feature 'state';
 use Capture::Tiny 'capture_merged';
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 my $TBXCHECKER = path( dist_dir('TBX-Checker'),'tbxcheck-1_2_9.jar' );
 
@@ -108,7 +108,7 @@ TBX::Checker - Check TBX validity using TBXChecker
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -163,7 +163,7 @@ Nathan Glenn <garfieldnate@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Nathan Glenn.
+This software is copyright (c) 2013 by Alan K. Melby.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

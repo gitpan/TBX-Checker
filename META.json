@@ -65,7 +65,7 @@
    "provides" : {
       "TBX::Checker" : {
          "file" : "lib/TBX/Checker.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -74,17 +74,17 @@
          "mailto" : "bug-tbx-checker at rt.cpan.org",
          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=TBX-Checker"
       },
-      "homepage" : "https://github.com/garfieldnate/TBX-Checker",
+      "homepage" : "https://github.com/byutrg/TBX-Checker",
       "license" : [
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/garfieldnate/TBX-Checker.git",
-         "web" : "https://github.com/garfieldnate/TBX-Checker"
+         "url" : "https://github.com/byutrg/TBX-Checker.git",
+         "web" : "https://github.com/byutrg/TBX-Checker"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_BuiltWith" : {
       "modules" : {
          "Capture::Tiny" : "0.22",
@@ -153,6 +153,11 @@
          {
             "class" : "Dist::Zilla::Plugin::GenerateFile",
             "name" : "MANIFEST.SKIP",
+            "version" : "4.300034"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ManifestSkip",
+            "name" : "ManifestSkip",
             "version" : "4.300034"
          },
          {

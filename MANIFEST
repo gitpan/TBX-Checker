@@ -11,8 +11,6 @@ README
 SIGNATURE
 dist.ini
 lib/TBX/Checker.pm
-perl-module.sublime-project
-perl-module.sublime-workspace
 share/tbxcheck-1_2_9.jar
 t/0-use.t
 t/00-compile.t
