@@ -18,7 +18,7 @@ my %module_build_args = (
     "Nathan Glenn <garfieldnate\@gmail.com>"
   ],
   "dist_name" => "TBX-Checker",
-  "dist_version" => "0.02",
+  "dist_version" => "0.03",
   "license" => "perl",
   "module_name" => "TBX::Checker",
   "recommends" => {},
@@ -43,7 +43,8 @@ my %module_build_args = (
     "File::Find" => 0,
     "File::Temp" => 0,
     "FindBin" => 0,
-    "Test::More" => "0.88"
+    "Test::More" => "0.88",
+    "URI::file" => 0
   }
 );
 

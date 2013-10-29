@@ -2,7 +2,7 @@ NAME
     TBX::Checker - Check TBX validity using TBXChecker
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
             use TBX::Checker qw(check);
@@ -21,8 +21,9 @@ METHODS
     representing the validity of the input TBX, and an array reference
     containing messages returned by TBXChecker.
 
-    Arguments: file to be checked, followed by named arguments accepted by
-    TBXChecker. For example: "check('file.tbx', loglevel =" 'ALL')>. The
+    Arguments: a string containing a TBX file path, or a string pointer
+    containing TBX data to be checked, followed by named arguments accepted
+    by TBXChecker. For example: "check('file.tbx', loglevel =" 'ALL')>. The
     allowed parameters are listed below:
 
         loglevel      Increase level of output while processing.
@@ -42,6 +43,9 @@ METHODS
                              Default: Uses the directory where the file is located.
         version       Displays version information and quits.
         environment    Adds the environmental conditions on startup to the messages.
+
+    Keep in mind that if you use a string pointer instead of a file name,
+    all relative URI's will be resolved from the current working directory.
 
 SEE ALSO
     The TBXChecker project is located on SourceForge in a project called

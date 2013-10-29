@@ -1,5 +1,6 @@
 
-#!start included C:\strawberry\perl\lib\ExtUtils\MANIFEST.SKIP
+#contents of #!include_default
+#have to put this here until Module::Manifest understands #!include_default
 # Avoid version control files.
 \bRCS\b
 \bCVS\b
@@ -55,8 +56,8 @@
 
 # Avoid MYMETA files
 ^MYMETA\.
-#!end included C:\strawberry\perl\lib\ExtUtils\MANIFEST.SKIP
 
+#END DEFAULT MANIFEST SKIP
 
 # sublime project
 \.sublime-project
